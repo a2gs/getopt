@@ -27,4 +27,4 @@ $(OBJ): $(SOURCES)
 	$(RANLIB) $(LIB)
 
 clean:
-	$(RM) $(BINDIR)/*
+	-$(RM) $(BINDIR)/*
