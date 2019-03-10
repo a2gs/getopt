@@ -52,7 +52,8 @@
 
 
 #if 0 /* EXAMPLE. Run as: ./program -a atesta -b btestb ntestn -d dtestd -c */
-int main(int argc, char *argv[]){
+int main(int argc, char *argv[])
+{
    a2gs_ToolBox_GetShortOptCTX_t a;
    int endLoop = 0;
 
