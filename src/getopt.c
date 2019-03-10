@@ -50,7 +50,7 @@
  *    a2gs_ToolBox_GetShortOpt_NO_MORE_PARAMS     - End especified parameters. Need re-start.
  *    a2gs_ToolBox_GetShortOpt_NO_A_OPT_BUT_A_STR - The present parameter is a text, not a parameters like: -x
  */
-int a2gs_ToolBox_GetShortOpt(int argc, char **argv, a2gs_ToolBox_GetShortOptCTX_t *pr)
+int a2gs_ToolBox_GetShortOpt(int argc, char *argv[], a2gs_ToolBox_GetShortOptCTX_t *pr)
 {
 	if(argc == 1) /* Nenhum parametro */
 		return(A2GS_TOOLBOX_GETSHORTOPT_NO_PARAM);
