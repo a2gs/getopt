@@ -1,7 +1,7 @@
 /*
  * Andre Augusto Giannotti Scota Tool Box Library.
  *
- * Public Domain.
+ * MIT License
  *
  */
 
